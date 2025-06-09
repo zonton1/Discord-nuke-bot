@@ -249,7 +249,7 @@ async def on_guild_join(guild):
 async def main():
     await bot.add_cog(ChannelDestroyer(bot))
     # Hardcoded token here:
-    token = "MTM3OTYyMjg5NzgxOTMyNDU4Nw.GnKV3m.s3a4m2hPYRkMzrMhysgDJGh3i_PlbHjp9xS79Q"
+    token = ""
     await bot.start(token)
 
 if __name__ == "__main__":
